@@ -12,8 +12,6 @@ public class OcorrenciasDeKemC {
         }
 
         return ocorrencias(k, n / 10, i);
-
-
     }
 
     public static void main(String[] args) {
