@@ -24,7 +24,6 @@ public class VectorPermutations {
 
         for (int j = i; j <= f; j++) {
             swap(vector, j, i);
-            System.out.println("valor de inicio: " + i + " Valor de J do For: " + j);
             solution(vector, i + 1, f);
             swap(vector, j, i);
         }
